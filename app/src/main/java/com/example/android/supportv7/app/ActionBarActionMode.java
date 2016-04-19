@@ -40,6 +40,7 @@ public class ActionBarActionMode extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        
         setContentView(R.layout.action_bar_action_mode);
 
         findViewById(R.id.btn_start_action_mode).setOnClickListener(new View.OnClickListener() {
